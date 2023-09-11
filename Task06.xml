@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+
+    <test name="Parameters Tests">
+        <classes>
+            <class name="testies.tasks.Task10">
+                <methods>
+                    <parameter name="name" value="Gürsoy"></parameter>
+                    <parameter name="surname" value="Uluçam"></parameter>
+                    <include name="test01"></include>
+                    <include name="test02"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

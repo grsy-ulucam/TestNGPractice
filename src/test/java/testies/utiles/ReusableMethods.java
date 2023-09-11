@@ -15,11 +15,7 @@ import java.util.Date;
 public class ReusableMethods {
 
 
-
-
-
     public static String getScreenshot(WebDriver driver, String name) throws IOException {
-
 
 
         // Screenshot dosya ismi icin suanki tarihi string olarak aliyoruz
@@ -27,11 +23,9 @@ public class ReusableMethods {
         String date = formatCurrentDate("yyyyMMddhhmmss");
 
 
-
         // Screenshot alip file objesine atiyoruz
 
-        File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-
+        File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 
         // Kaydedilecek dosyanin yolunu belirliyoruz
@@ -39,28 +33,22 @@ public class ReusableMethods {
         String target = System.getProperty("user.dir") + "\\test-output\\Screenshots\\" + name + date + ".png";
 
 
-
         File targetFile = new File(target);
-
 
 
         FileUtils.copyFile(source, targetFile);
 
 
-
-        return  target;
-
+        return target;
 
 
     }
 
 
-    public static String formatCurrentDate(String pattern){
-
+    public static String formatCurrentDate(String pattern) {
 
 
         return new SimpleDateFormat(pattern).format(new Date());
-
 
 
     }

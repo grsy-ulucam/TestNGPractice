@@ -20,7 +20,6 @@ public class JSUtils {
     }
 
 
-
     //to get the page title with JS
 
     public static String getTitleByJS() {
@@ -32,7 +31,6 @@ public class JSUtils {
         return title;
 
     }
-
 
 
     //Scrolling all the way down
@@ -47,9 +45,9 @@ public class JSUtils {
 
     //    Scroll al the way up of a page
 
-    public static void scrollAllUpByJS(){
+    public static void scrollAllUpByJS() {
 
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
 
@@ -64,7 +62,6 @@ public class JSUtils {
         jsexecutor.executeScript("arguments[0].scrollIntoView(true);", element);
 
     }
-
 
 
     public static void changeBackgroundColorByJS(String color, WebElement element) {
@@ -146,30 +143,27 @@ public class JSUtils {
     }
 
 
-
-
-
     //    Set the value of an input using js executor. Params: WebElement element, String text
 
 //    This method changes the value attribute of an element.
 
 //    It changes the input text
 
-    public static void setValueByJS(WebElement element, String text){
+    public static void setValueByJS(WebElement element, String text) {
 
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        js.executeScript("arguments[0].setAttribute('value','"+text+"')",element);
+        js.executeScript("arguments[0].setAttribute('value','" + text + "')", element);
 
     }
 
     //    get the value of an input. param: idOfElement
 
-    public static void getValueByJS(String idOfElement){
+    public static void getValueByJS(String idOfElement) {
 
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        String value=js.executeScript("return document.getElementById('"+idOfElement+"').value").toString();
+        String value = js.executeScript("return document.getElementById('" + idOfElement + "').value").toString();
 
         System.out.println(value);
 
@@ -187,11 +181,11 @@ public class JSUtils {
 
     }
 
-    public static void addBorderWithJS(WebElement element, String borderStyle){
+    public static void addBorderWithJS(WebElement element, String borderStyle) {
 
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        js.executeScript("arguments[0].style.border='"+borderStyle+"'",element);
+        js.executeScript("arguments[0].style.border='" + borderStyle + "'", element);
 
     }
 }

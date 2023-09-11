@@ -16,19 +16,19 @@ public abstract class BaseTest {
     protected Actions actions;
 
     @BeforeMethod
-    public void  setup(){
+    public void setup() {
 
         WebDriverManager.firefoxdriver().setup();
 
-        driver=new FirefoxDriver();
+        driver = new FirefoxDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        actions=new Actions(driver);
+        actions = new Actions(driver);
     }
 
     @AfterMethod
-    public  void teardown(){
+    public void teardown() {
 
         driver.quit();
     }

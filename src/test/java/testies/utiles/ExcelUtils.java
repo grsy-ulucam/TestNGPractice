@@ -22,14 +22,13 @@ public class ExcelUtils {
     private String path;
 
 
-
     public ExcelUtils(String path, int sheetIndex) {
 
 
         this.path = path;
 
 
-        try{
+        try {
 
             FileInputStream fis = new FileInputStream(path);
 
@@ -38,7 +37,7 @@ public class ExcelUtils {
             sheet = workbook.getSheetAt(sheetIndex);
 
 
-        }catch (Exception e){
+        } catch (Exception e) {
 
             e.printStackTrace();
 
@@ -48,30 +47,25 @@ public class ExcelUtils {
 
     // satir sayisini dondurur
 
-    public int rowCount(){
+    public int rowCount() {
 
-        return sheet.getLastRowNum()+1;
+        return sheet.getLastRowNum() + 1;
 
     }
 
 
-
-
-
     // sutun sayisini dondurur
 
-    public int colCount(){
+    public int colCount() {
 
         return sheet.getRow(0).getLastCellNum();
 
     }
 
 
-
     // exceldeki verileri List<Map<String,String>> formatina cevirerek dondurur. Javada rahat calismamizi saglar
 
     public List<Map<String, String>> getDataList() {
-
 
 
         // getting all columns
@@ -94,7 +88,7 @@ public class ExcelUtils {
 
             Map<String, String> rowMap = new HashMap<String, String>();
 
-            for (Cell cell :row) {
+            for (Cell cell : row) {
 
                 int columnIndex = cell.getColumnIndex();
 
@@ -109,7 +103,6 @@ public class ExcelUtils {
         return data;
 
     }
-
 
 
     // Istedigimiz hucredeki veriyi almamizi saglar
@@ -155,7 +148,6 @@ public class ExcelUtils {
         return data;
 
     }
-
 
 
     //==============going to the first row and reading each column one by one==================//
@@ -228,7 +220,7 @@ public class ExcelUtils {
 
     public String[][] getDataArrayWithoutFirstRow() {
 
-        String[][] data = new String[rowCount()-1][colCount()];
+        String[][] data = new String[rowCount() - 1][colCount()];
 
         for (int i = 1; i < rowCount(); i++) {
 
@@ -236,7 +228,7 @@ public class ExcelUtils {
 
                 String value = getCellData(i, j);
 
-                data[i-1][j] = value;
+                data[i - 1][j] = value;
 
             }
 
@@ -247,27 +239,24 @@ public class ExcelUtils {
     }
 
 
-
     //get Row Count in sheet
 
-    public int getRowCountInSheet(){
+    public int getRowCountInSheet() {
 
-        int rowcount = sheet.getLastRowNum()- sheet.getFirstRowNum();
+        int rowcount = sheet.getLastRowNum() - sheet.getFirstRowNum();
 
         return rowcount;
 
     }
 
 
-
     //set Cell Value
 
-    public void setCellValue(int rowNum,int cellNum,String cellValue,String excelFilePath) throws IOException {
+    public void setCellValue(int rowNum, int cellNum, String cellValue, String excelFilePath) throws IOException {
 
         //creating a new cell in row and setting value to it
 
         sheet.getRow(rowNum).createCell(cellNum).setCellValue(cellValue);
-
 
 
         FileOutputStream outputStream = new FileOutputStream(excelFilePath);
@@ -275,9 +264,6 @@ public class ExcelUtils {
         workbook.write(outputStream);
 
     }
-
-
-
 
 
 }

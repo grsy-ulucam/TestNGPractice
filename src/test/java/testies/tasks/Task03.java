@@ -5,16 +5,18 @@ import org.testng.annotations.Test;
 public class Task03 {
 
     @Test
-    public  void loginTest(){
+    public void loginTest() {
         System.out.println("login test is done ");
     }
+
     @Test
-    public  void registrationTest(){
+    public void registrationTest() {
         System.out.println("registration test is done ");
     }
+
     @Test(
-            dependsOnMethods = {"loginTest","registrationTest"})
-    public  void homePageTest(){
+            dependsOnMethods = {"loginTest", "registrationTest"})
+    public void homePageTest() {
         System.out.println("Home Page test is done ");
     }
 }

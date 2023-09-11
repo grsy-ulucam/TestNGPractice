@@ -5,6 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.ITestResult;
@@ -77,20 +78,20 @@ public class BaseTestReport {
 
 
     }
+
     @BeforeMethod
 
     @Parameters("browser")
 
-    public void setup(@Optional("chrome") String browser){
+    public void setup(@Optional("chrome") String browser) {
 
 
+        switch (browser) {
 
-        switch (browser){
-
-
-
-
-
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                this.driver = new ChromeDriver();
+                break;
 
             case "firefox":
 
@@ -100,11 +101,7 @@ public class BaseTestReport {
 
                 break;
 
-
-
         }
-
-
 
         driver.manage().window().maximize();
 
@@ -115,14 +112,12 @@ public class BaseTestReport {
     }
 
 
-
     @AfterMethod
 
     public void teardown(ITestResult result) throws IOException {
 
 
-
-        if(result.getStatus() == ITestResult.FAILURE){
+        if (result.getStatus() == ITestResult.FAILURE) {
 
             String screenShotLocation = ReusableMethods.getScreenshot(driver, result.getName());
 
@@ -132,14 +127,11 @@ public class BaseTestReport {
 
             extentTest.fail(result.getThrowable());
 
-        }
-
-        else if (result.getStatus() == ITestResult.SKIP) { // eğer test çalıştırılmadan geçilmezse
+        } else if (result.getStatus() == ITestResult.SKIP) { // eğer test çalıştırılmadan geçilmezse
 
             extentTest.skip("Test Case is skipped: " + result.getName()); // Ignore olanlar
 
         }
-
 
 
         driver.quit();
@@ -147,10 +139,9 @@ public class BaseTestReport {
     }
 
 
-
     @AfterSuite
 
-    public void afterSuite(){
+    public void afterSuite() {
 
         extentReports.flush();
 
