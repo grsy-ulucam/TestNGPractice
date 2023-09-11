@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edaf50af-c367-4328-951b-09f211359eac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/BaseTestReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/JSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/ReusableMethods.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="exhw82u3" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2VFPBEux9JNC4NHXjOSTE5vwC3P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testies.utiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Task06.test01">
+    <configuration name="Task05" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task05" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task05.Test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task05" />
+      <option name="METHOD_NAME" value="Test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task06" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task06" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task06.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task06" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task07" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task07" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Task06.test01" />
+        <item itemvalue="TestNG.Task07" />
+        <item itemvalue="TestNG.Task06" />
+        <item itemvalue="TestNG.Task05" />
+        <item itemvalue="TestNG.Task05.Test02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edaf50af-c367-4328-951b-09f211359eac" name="Changes" comment="" />
+      <created>1694428719728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694428719728</updated>
+    </task>
+    <servers />
+  </component>
+</project>
