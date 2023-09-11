@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edaf50af-c367-4328-951b-09f211359eac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task06.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/testies/tasks/Task07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/BaseTestReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/JSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testies/utiles/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,42 +53,7 @@
       <recent name="testies.utiles" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task06.test01">
-    <configuration name="Task05" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testies.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testies.tasks" />
-      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task05" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task05.Test02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testies.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testies.tasks" />
-      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task05" />
-      <option name="METHOD_NAME" value="Test02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Task07.softAssertion">
     <configuration name="Task06" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGPractice" />
       <extension name="coverage">
@@ -161,13 +106,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task07.hardAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task07" />
+      <option name="METHOD_NAME" value="hardAssertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task07.softAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testies.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testies.tasks" />
+      <option name="MAIN_CLASS_NAME" value="testies.tasks.Task07" />
+      <option name="METHOD_NAME" value="softAssertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task07.softAssertion" />
+        <item itemvalue="TestNG.Task07.hardAssertion" />
         <item itemvalue="TestNG.Task06.test01" />
         <item itemvalue="TestNG.Task07" />
         <item itemvalue="TestNG.Task06" />
-        <item itemvalue="TestNG.Task05" />
-        <item itemvalue="TestNG.Task05.Test02" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +161,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694428719728</updated>
     </task>
+    <task id="LOCAL-00001" summary="11.09.2023">
+      <created>1694434856847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694434856847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11.09.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.09.2023" />
   </component>
 </project>
