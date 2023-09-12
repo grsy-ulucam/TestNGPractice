@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browser Parameters Suite">
+    <test name="Paralel Tests" parallel="methods">
+        <classes>
+            <class name="testies.tasks.Task14"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Groups Test Suite">
-   <test name="Smoke Tests">
-       <groups>
-           <run>
-               <include name="smoke"></include>
-           </run>
-       </groups>
-       <classes>
-           <class name="testies.tasks.Task09"></class>
-       </classes>
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testies.tasks.Task09"></class>
+        </classes>
     </test>
     <test name="Regression Tests">
         <groups>

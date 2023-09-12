@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-   <test name="Group Test">
-       <groups>
-           <run>
-               <include name="regression"></include>
-           </run>
-       </groups>
-       <classes>
-           <class name="testies.tasks.Task09"></class>
-       </classes>
-      
+    <test name="Group Test">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testies.tasks.Task09"></class>
+        </classes>
+
     </test>
 </suite>

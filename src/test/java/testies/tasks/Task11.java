@@ -40,7 +40,7 @@ public class Task11 {
         System.out.println("driver snlandirildi " + driver);
 
     }
-    
+
     @Test
     public void test() {
 

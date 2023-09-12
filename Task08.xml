@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browser Parameters Suite">
+    <test name="Browser Parameters Tests 01">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="aranacakKelime" value="Java"></parameter>
+        <classes>
+            <class name="testies.tasks.Task12"></class>
+        </classes>
+    </test>
+    <test name="Browser Parameters Tests 02">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="aranacakKelime" value="Pen"></parameter>
+        <classes>
+            <class name="testies.tasks.Task12"></class>
+        </classes>
+    </test>
+</suite>
