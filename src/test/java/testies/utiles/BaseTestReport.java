@@ -83,7 +83,7 @@ public class BaseTestReport {
 
     @Parameters("browser")
 
-    public void setup(@Optional("chrome") String browser) {
+    public void setup(@Optional("firefox") String browser) {
 
 
         switch (browser) {
